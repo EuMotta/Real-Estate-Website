@@ -1,0 +1,66 @@
+.first_block{
+    background-image: url(../img/pexels-binyamin-mellish-106399.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.init_text h1{
+    font-size: 5rem;
+}
+.init_text{
+    color: aliceblue;
+}
+.text{
+    position: relative;
+    top: 4rem;
+}
+.images{
+    background-color: var(--primary-color);
+}
+.images .col-4{
+    overflow: hidden;
+}
+.images img{
+    transition: 300ms ease-in-out;
+}
+.images img:hover{
+    transform: scale(1.1);
+    
+}
+.second_block h1{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.second_block p{
+    color: var(--text-color);
+}
+.second_block h2{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.second_block a{
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+.second_block a:hover{
+    color: rgb(217, 217, 217);
+}
+.second_block_description{
+    background: var(--primary-color);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.third_block .container{
+    width: 50%;
+}
+.third_block .container h1{
+    font-size: 3rem;
+}
+.third_block .container p{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,7 @@
+:root{
+    --primary-color: rgb(61, 65, 97);
+    --text-color: aliceblue;
+}
+/* h1,h2,p{
+    color: var(--text-color);
+} */
