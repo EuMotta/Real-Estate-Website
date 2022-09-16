@@ -1,7 +1,28 @@
 :root{
     --primary-color: rgb(61, 65, 97);
     --text-color: aliceblue;
+    --fourth-bg-color:rgb(61, 65, 97);
 }
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px var(--primary-color); 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color); 
+  }
 /* h1,h2,p{
     color: var(--text-color);
 } */
